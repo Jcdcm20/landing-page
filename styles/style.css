@@ -69,7 +69,7 @@ a {
     font-weight: extra-bold;
 }
 
-.image {
+.header-image {
     background-color: #909194;
     display: flex;
     justify-content: center;
@@ -85,31 +85,34 @@ a {
     align-items: center;
 }
 
-.information {
+.info {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 16px;
     flex: 1;
 }
 
-.box-container { 
+.card-container { 
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    gap: 16px;
 }
 
 .card {
+    width: 150px;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
-    flex: 1;
-    flex-wrap: wrap;
 }
 
-.box {
+.image {
     border: 2px solid blue;
-    flex: 1;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.subtext {
+    text-align: center;
 }
 
 .sign-up {
