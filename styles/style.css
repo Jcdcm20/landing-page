@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
+    gap: 50px;
 }
 
 .header-container {
@@ -83,6 +84,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 50px;
 }
 
 .info {
@@ -95,7 +97,7 @@ a {
 
 .card-container { 
     display: flex;
-    gap: 16px;
+    gap: 20px;
 }
 
 .card {
@@ -113,6 +115,32 @@ a {
 
 .subtext {
     text-align: center;
+}
+
+.quote-container {
+    display: flex;
+    background-color: #e5E7EB;
+    padding-inline: 200px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+blockquote {
+    font-size: 36px;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 70px;
+}
+
+span {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .sign-up {
