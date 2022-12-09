@@ -1,10 +1,10 @@
 body {
     margin: 0;
     padding: 0;
-    width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: sans-serif;
 }
 
 .header-container {
@@ -26,6 +26,7 @@ body {
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .logo {
@@ -51,7 +52,6 @@ a {
 .intro {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     gap: 50px;
     flex: 1;
 }
@@ -62,6 +62,7 @@ a {
     flex: 1;
 }
 
+
 .title {
     font-size: 48px;
     color: #F9FAF8;
@@ -69,14 +70,54 @@ a {
 }
 
 .image {
-    background-color: #eeeeee;
+    background-color: #909194;
     display: flex;
     justify-content: center;
     align-items: center;
     flex: 1;
+    color: #e5E7EB;
 }
+
 .content-container {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.box-container { 
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.box {
+    border: 2px solid blue;
+    flex: 1;
+}
+
+.sign-up {
+    background-color: #3882F6;  
+    color: #e5E7EB;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 10px;
 }
 
 .footer {
